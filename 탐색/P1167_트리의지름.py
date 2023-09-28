@@ -5,7 +5,7 @@ from collections import deque
 N = int(input())
 A = [[] for _ in range(N+1)]
 
-for _ in range(N):
+for _ in range(N): # A 인접 리스트에 그래프 데이터 저장
     Data = list(map(int, input().split()))
     index = 0
     S = Data[index]
