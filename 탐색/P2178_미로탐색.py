@@ -11,7 +11,7 @@ N, M = map(int, input().split())
 A = [[0] * M for _ in range(N)]
 visited = [[False] * M for _ in range(N)]
 
-for i in range(N):
+for i in range(N): # A의 2차원 리스트에 데이터 저장
     numbers = list(input())
     for j in range(M):
         A[i][j] = int(numbers[j])

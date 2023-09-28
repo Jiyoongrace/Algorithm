@@ -5,7 +5,7 @@ from collections import deque
 N, M, Start = map(int, input().split())
 A = [[] for _ in range(N+1)]
 
-for _ in range(M):
+for _ in range(M): # A 인접 리스트에 그래프 데이터 저장
     s, e = map(int, input().split())
     A[s].append(e) # 양방향 에지이므로 양쪽에 에지를 더하기
     A[e].append(s)
