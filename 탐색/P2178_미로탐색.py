@@ -1,4 +1,4 @@
-# 📌 문제 027) DFS와 BFS 프로그램
+# 📌 문제 027) 미로 탐색하기
 # 시간 제한 1초, 실버 I, 백준 2178번
 
 from collections import deque
