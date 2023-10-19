@@ -20,7 +20,7 @@ start_index, end_index = map(int, input().split())
 def dijkstra(start, end):
     pq = PriorityQueue()
     pq.put((0, start))
-
+    # 우선순위에 데이터를 최단 거리, 노드 순으로 삽입
     dist[start] = 0
     while  pq.qsize() > 0:
         nowNode = pq.get()
